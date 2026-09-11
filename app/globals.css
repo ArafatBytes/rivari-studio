@@ -1,26 +1,97 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Roobert Font - loaded directly from Republic Marketing CDN */
+@font-face {
+  font-family: 'Roobert';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('https://bunny-wp-pullzone-wpreqcclyi.b-cdn.net/wp-content/uploads/2024/06/RoobertPRO-Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Roobert';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://bunny-wp-pullzone-wpreqcclyi.b-cdn.net/wp-content/uploads/2024/06/RoobertPRO-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Roobert';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('https://bunny-wp-pullzone-wpreqcclyi.b-cdn.net/wp-content/uploads/2024/06/RoobertPRO-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Roobert';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('https://bunny-wp-pullzone-wpreqcclyi.b-cdn.net/wp-content/uploads/2024/06/RoobertSemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Roobert';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://bunny-wp-pullzone-wpreqcclyi.b-cdn.net/wp-content/uploads/2024/06/RoobertPRO-Bold.woff2') format('woff2');
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: #016DFF;
+  --color-dark: #040316;
+  --color-darker: #050419;
+  --color-light: #f8f8f7;
+  --color-gray: #6F6F6F;
+  --color-gray-light: #D9D9D9;
+  
+  --font-sans: 'Roobert', var(--font-manrope), sans-serif;
+  --font-urbanist: var(--font-urbanist), 'Roobert', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    overscroll-behavior: none;
+  }
+  
+  body {
+    background-color: #f8f8f7;
+    color: #040316;
+    font-family: 'Roobert', var(--font-manrope), sans-serif;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .text-mask-lr {
+    -webkit-mask-image: linear-gradient(to right, black var(--mask, 0%), transparent var(--mask, 0%));
+    mask-image: linear-gradient(to right, black var(--mask, 0%), transparent var(--mask, 0%));
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #016DFF 0%, #7B61FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-border {
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(135deg, #016DFF, #7B61FF) border-box;
+    border: 1px solid transparent;
+  }
 }
