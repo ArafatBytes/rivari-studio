@@ -3,7 +3,7 @@ import Link from "next/link";
 import CtaSection from "@/components/home/CtaSection";
 
 export const metadata: Metadata = {
-  title: "Case Studies - Republic Marketing",
+  title: "Case Studies - Rivari Studio",
   description: "Explore our portfolio of award-winning digital marketing and web design work. Real results for real businesses.",
 };
 

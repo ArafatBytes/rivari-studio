@@ -15,8 +15,8 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Digital Marketing Agency Birmingham - Republic Marketing",
-  description: "Boost your business with Birmingham's top Digital Marketing Agency. Expertise in SEO, PPC, and Social Media Marketing. Award-winning & results-driven.",
+  title: "Digital Marketing Agency - Rivari Studio",
+  description: "Rivari Studio is an award-winning digital marketing and web design agency. We help ambitious businesses grow through SEO, PPC, Paid Social and more.",
 };
 
 export default function RootLayout({

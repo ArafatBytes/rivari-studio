@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import CtaSection from "@/components/home/CtaSection";
 
 export const metadata: Metadata = {
-  title: "About Republic Marketing - Award-Winning Digital Agency",
-  description: "Learn about Republic Marketing, our story, our team and our mission to help ambitious businesses grow through innovative digital marketing.",
+  title: "About Rivari Studio - Award-Winning Digital Agency",
+  description: "Learn about Rivari Studio, our story, our team and our mission to help ambitious businesses grow through innovative digital marketing.",
 };
 
 const team = [
@@ -57,7 +57,7 @@ export default function AboutPage() {
             <div>
               <span className="text-xs font-semibold text-[#016DFF] uppercase tracking-widest mb-4 block">About Us</span>
               <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8">
-                We&apos;re Republic <em className="italic font-light">Marketing</em>
+                We&apos;re <em className="italic font-light">Rivari Studio</em>
               </h1>
               <p className="text-lg md:text-xl text-[#6F6F6F] leading-relaxed max-w-lg">
                 Founded in 2020, we&apos;re an award-winning digital marketing and web design agency helping ambitious businesses grow online. We&apos;re based in Birmingham and London, but we work with brands all over the UK.
@@ -66,7 +66,7 @@ export default function AboutPage() {
             <div className="relative aspect-video rounded-3xl overflow-hidden">
               <img 
                 src="https://bunny-wp-pullzone-wpreqcclyi.b-cdn.net/wp-content/uploads/2024/07/Rectangle-2-copy-scaled.webp"
-                alt="Republic Marketing Team"
+                alt="Rivari Studio Team"
                 className="w-full h-full object-cover"
               />
             </div>

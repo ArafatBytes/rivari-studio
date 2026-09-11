@@ -3,7 +3,7 @@ import ServicePageHero from "@/components/shared/ServicePageHero";
 import CtaSection from "@/components/home/CtaSection";
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing Agency - Republic Marketing",
+  title: "Social Media Marketing Agency - Rivari Studio",
   description: "Grow your brand with expert social media marketing. We manage your presence across all major platforms to build an engaged community.",
 };
 

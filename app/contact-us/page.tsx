@@ -62,14 +62,15 @@ export default function ContactPage() {
                 <h2 className="text-2xl font-bold mb-6">Get in touch</h2>
                 <div className="flex flex-col gap-5">
                   {[
-                    { label: "London Office", value: "20 Red Lion St, London WC1R 4PS", sub: "0208 243 4550" },
-                    { label: "Birmingham Office", value: "Spacemade, 10 Brindley Pl, Birmingham, B1 2JB", sub: "0121 517 0544" },
-                    { label: "Email", value: "hello@republicmarketing.co.uk", sub: "" },
+                    { label: "Address", value: "First Floor, 58 - 59 Lower High St, Wednesbury WS10 7AL, United Kingdom", href: "https://share.google/8kKlx7r5RMI7i6g3a" },
+                    { label: "Phone", value: "+44 7939 138565", href: "tel:+447939138565" },
+                    { label: "Email", value: "hello@rivaristudio.com", href: "mailto:hello@rivaristudio.com" },
                   ].map((item) => (
                     <div key={item.label} className="flex flex-col">
                       <span className="text-xs font-semibold text-[#6F6F6F] uppercase tracking-widest mb-1">{item.label}</span>
-                      <span className="font-medium text-[#040316]">{item.value}</span>
-                      {item.sub && <span className="text-[#016DFF] font-medium">{item.sub}</span>}
+                      <a href={item.href} target="_blank" rel="noopener noreferrer" className="font-medium text-[#040316] hover:text-[#016DFF] transition-colors">
+                        {item.value}
+                      </a>
                     </div>
                   ))}
                 </div>

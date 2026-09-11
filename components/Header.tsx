@@ -29,7 +29,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <span className="text-2xl font-bold font-urbanist tracking-tight">
-            Republic <span className="font-light">Marketing</span>
+            Rivari <span className="font-light text-[#016DFF]">Studio</span>
           </span>
         </Link>
 

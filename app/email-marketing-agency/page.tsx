@@ -3,7 +3,7 @@ import ServicePageHero from "@/components/shared/ServicePageHero";
 import CtaSection from "@/components/home/CtaSection";
 
 export const metadata: Metadata = {
-  title: "Email Marketing Agency - Republic Marketing",
+  title: "Email Marketing Agency - Rivari Studio",
   description: "Expert email marketing services. We design, write and manage email campaigns that nurture your leads and drive repeat revenue.",
 };
 

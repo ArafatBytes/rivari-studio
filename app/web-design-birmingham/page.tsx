@@ -4,7 +4,7 @@ import CtaSection from "@/components/home/CtaSection";
 import ProjectsSection from "@/components/home/ResultsCarousel";
 
 export const metadata: Metadata = {
-  title: "Web Design Agency Birmingham - Republic Marketing",
+  title: "Web Design Agency Birmingham - Rivari Studio",
   description: "Award-winning web design agency in Birmingham. We build websites that are beautiful, fast and designed to convert visitors into customers.",
 };
 

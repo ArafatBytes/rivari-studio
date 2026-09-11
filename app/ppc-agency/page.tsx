@@ -4,7 +4,7 @@ import CtaSection from "@/components/home/CtaSection";
 import ProjectsSection from "@/components/home/ResultsCarousel";
 
 export const metadata: Metadata = {
-  title: "PPC Agency Birmingham - Republic Marketing",
+  title: "PPC Agency Birmingham - Rivari Studio",
   description: "Award-winning PPC agency in Birmingham. We drive measurable results through Google Ads, Shopping campaigns and paid search strategies. Get a free audit today.",
 };
 

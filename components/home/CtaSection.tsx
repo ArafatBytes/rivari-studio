@@ -56,7 +56,7 @@ export default function CtaSection() {
             <em className="italic font-light text-[#016DFF]">extraordinary</em> together
           </h2>
           <p className="text-[#9B9BA8] text-lg md:text-xl mb-12 max-w-2xl mx-auto leading-relaxed">
-            Partner with Republic Marketing and unlock the full potential of your digital presence. 
+            Partner with Rivari Studio and unlock the full potential of your digital presence. 
             Our team is ready to craft a strategy that transforms your business.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

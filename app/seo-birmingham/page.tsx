@@ -4,7 +4,7 @@ import CtaSection from "@/components/home/CtaSection";
 import ProjectsSection from "@/components/home/ResultsCarousel";
 
 export const metadata: Metadata = {
-  title: "SEO Agency Birmingham - Republic Marketing",
+  title: "SEO Agency Birmingham - Rivari Studio",
   description: "Birmingham's leading SEO agency. We grow your organic traffic and rankings through proven, white-hat SEO strategies. Get a free SEO audit today.",
 };
 

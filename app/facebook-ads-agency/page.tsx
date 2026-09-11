@@ -4,7 +4,7 @@ import CtaSection from "@/components/home/CtaSection";
 import ProjectsSection from "@/components/home/ResultsCarousel";
 
 export const metadata: Metadata = {
-  title: "Paid Social Media Advertising Agency - Republic Marketing",
+  title: "Paid Social Media Advertising Agency - Rivari Studio",
   description: "Expert Facebook, Instagram, TikTok and LinkedIn advertising. We create social media ad campaigns that generate demand and grow your business.",
 };
 

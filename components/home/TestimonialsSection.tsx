@@ -12,7 +12,7 @@ if (typeof window !== "undefined") {
 
 const testimonials = [
   {
-    quote: "Republic Marketing completely transformed our online presence. Our Google Ads campaigns now consistently deliver a 5x ROAS and we've seen a 300% increase in qualified leads.",
+    quote: "Rivari Studio completely transformed our online presence. Our Google Ads campaigns now consistently deliver a 5x ROAS and we've seen a 300% increase in qualified leads.",
     name: "Sarah Thompson",
     title: "CEO, Rove Legal",
     rating: 5,
